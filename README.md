@@ -1,34 +1,96 @@
-# Parayaya-NS
-##### Server emulator for the game Honkai: Nexus Anima
-# ![title](assets/img/screenshot.png)
+# TRACKING ( CURRENTLY IN DEVELOPMENT)
+# This script is written based on Python
+
+# ![title] (assest/image/screenshot.png)
+
+
+
+
+#### NOTE: we are trying to make it better to identify orther object
+
+
+##### TODO LIST:
+
+-[x] Detected Face
+-[ ] Detected Logo School
+-[ ] Compare faces and Flags Name
+
+
+_(may add more in furture)_
+
 
 # Getting started
 ### Requirements
-- [Zig 0.15.1](https://ziglang.org/download)
-- [SDK server](https://git.xeondev.com/reversedrooms/hoyo-sdk)
-##### NOTE: this server doesn't include the sdk server as it's not specific per game. You can use `hoyo-sdk` with this server.
-
-#### For additional help, you can join our [discord server](https://discord.xeondev.com)
-
-### Setup
-#### a) building from sources
+- [Python-3.13] (https://www.python.org/downloads/)
 ```sh
-git clone https://git.xeondev.com/parayaya-ns/parayaya-ns.git
-cd parayaya-ns
-zig build run-parayaya-dispatch
-zig build run-parayaya-gameserver
+pip install ultralytics
+pip install opencv-python
 ```
 
-#### b) using pre-built binaries
-Navigate to the [Releases](https://git.xeondev.com/parayaya-ns/parayaya-ns/releases) page and download the latest release for your platform.
-Start each server in order from option `a)`.
+### a) using from build
+1. Head to release
+2. Download latest release
 
-### Configuration
-Configuration is loaded from current working directory. If no configuration file exists, default one will be created.
-- To change server settings (such as server bind address), edit `dispatch_config.zon` (for dispatch).
+### b) using from source code
+1. Navigate to "Code" button
+2. Download zip and extract
+3. Open script.py
 
-### Logging in
-Currently supported client version is `OSCBWindows0.3.0` aka `First Closed Beta`, you can get it from 3rd party sources. Next, you have to apply the necessary [client patch](https://git.xeondev.com/parayaya-ns/parayaya-patch). It allows you to connect to the local server and replaces encryption keys with custom ones.
 
-## Support
-Your support for this project is greatly appreciated! If you'd like to contribute, feel free to send a tip [via Boosty](https://boosty.to/xeondev/donate)!
+### BUILD 
+```sh
+git clone https://github.com/172009/Face-Tracking.git
+cd Face-Tracking
+```
+_you can build by using Visual Studio Code or any programs can edit code_
+
+### Indetify your own object using YOLO
+
+##### - We will help you how to build your own yolo detect object
+
+- 1.) You need to gather more than 2000 images of the object
+- 2.) Download [label-studio](https://labelstud.io/) and upload all your image
+- 3.) Mark your object using label-studio and export it With yolo and images 
+###### The path should be
+        images/   (contain all of your images)
+        labels/   ( mark file. contain number)
+        notes.json 
+        classes.txt   ( your mark object names)
+- 4.) make your own data.yml
+###### For example
+        ```sh
+        train: images/train
+        val: images/val
+
+        nc: 3  # class name, you can check on your classes.txt and added to here
+        names:
+           - person
+           - car
+           - dog
+        ```
+- 5.) Open command promt on the folder contain all the step
+```sh
+yolo detect train data=data.yaml model=yolov8n.pt epochs=50 imgsz=640
+```
+    _model = yolov8n best for detect human body or some small object, yolov12n for best performance - great for started, or other model version you can check at yolo github_
+
+- 6.) The best model is in the weights folder. Called "best.pt"
+
+
+
+### WARNING: You need a highly GPU to doing that action, and it can take really long to complete the train. I recommend using Google Collab for this action
+
+- [Google_Collab](https://colab.research.google.com/github/EdjeElectronics/Train-and-Deploy-YOLO-Models/blob/main/Train_YOLO_Models.ipynb#scrollTo=EMEDk5byzxY5)
+
+_You can find step in step inside the Google Collab_
+
+
+
+
+
+
+
+### Support
+_Fix your self_
+
+
