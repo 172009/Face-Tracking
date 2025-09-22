@@ -44,7 +44,7 @@ while True:
             cv2.putText(frame, f"{label} {conf:.2f}", (x1, y1-10),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0,0,255), 2)
 
-    cv2.imshow("YOLO Detect", frame)
+    cv2.imshow("YOLO Detect --- (Currently Under Development)", frame)
 
     key = cv2.waitKey(1) & 0xFF
     #change picture
@@ -70,5 +70,6 @@ while True:
 if webcam.isOpened():
     webcam.release()
 cv2.destroyAllWindows()
+
 
 
