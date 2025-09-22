@@ -1,7 +1,7 @@
 # TRACKING ( CURRENTLY IN DEVELOPMENT)
 # This script is written based on Python
 
-# ![title] (assest/image/screenshot.png)
+# ![title] (assets/image/screenshot.png)
 
 
 
@@ -92,4 +92,5 @@ _You can find step in step inside the Google Collab_
 
 ### Support
 _Fix your self_
+
 
