@@ -94,13 +94,15 @@ _You can find step in step inside the Google Collab_
 
 
 ### USAGE
-_exit: using "e" button on keyboard to escape_
-
+_Exit: using "e" button on keyboard to escape_
+_Load picture and Images: using "p", choose the picture or videos you like from file_
+_Camera: using "c" to open camera when you want to change from picture, videos -> camera_
 
 
 
 ### Support
 _Fix your self_
+
 
 
 
