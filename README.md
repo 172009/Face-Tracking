@@ -7,6 +7,7 @@
 
 
 #### NOTE: we are trying to make it better to identify orther object
+#### NOTE: This application using your webcam to detect, you can change value inside source code if you want
 
 
 ##### TODO LIST:
@@ -85,13 +86,15 @@ yolo detect train data=data.yaml model=yolov8n.pt epochs=50 imgsz=640
 _You can find step in step inside the Google Collab_
 
 
-
+### USAGE
+_exit: using "e" button on keyboard to escape_
 
 
 
 
 ### Support
 _Fix your self_
+
 
 
 
