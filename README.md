@@ -1,7 +1,14 @@
 # TRACKING ( CURRENTLY IN DEVELOPMENT)
 # This script is written based on Python
 
-# ![title](assets/image/screenshot.png)
+# ![title](https://github.com/172009/Face-Tracking/blob/main/assets/image/sh1.png)
+- [Cà_Phê----MIN](https://www.youtube.com/watch?v=7m8ek8D9me0&list=RD7m8ek8D9me0&start_radio=1)
+# ![title](https://github.com/172009/Face-Tracking/blob/main/assets/image/sh2.png)
+- [ Cứ_Chill_Thôi----Chillies](https://www.youtube.com/watch?v=LZN4I3K8SC0&list=RDLZN4I3K8SC0&start_radio=1)
+# ![tittle](https://github.com/172009/Face-Tracking/blob/main/assets/image/sh3.png)
+- [Bad----Michael_Jackson](https://www.youtube.com/watch?v=dsUXAEzaC3Q&list=RDdsUXAEzaC3Q&start_radio=1)
+# ![title](https://github.com/172009/Face-Tracking/blob/main/assets/image/sh4.png)
+- [Genshin_Impact_Nod_Krai_Performance----Genshin_Impact](https://www.youtube.com/watch?v=RuXa_yxZMGI&list=RDRuXa_yxZMGI&start_radio=1)
 
 
 
@@ -94,6 +101,7 @@ _exit: using "e" button on keyboard to escape_
 
 ### Support
 _Fix your self_
+
 
 
 
