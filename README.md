@@ -7,43 +7,7 @@
 - [ Cứ_Chill_Thôi----Chillies](https://www.youtube.com/watch?v=LZN4I3K8SC0&list=RDLZN4I3K8SC0&start_radio=1)
 # ![tittle](https://github.com/172009/Face-Tracking/blob/main/assets/image/sh3.png)
 - [Bad----Michael_Jackson](https://www.youtube.com/watch?v=dsUXAEzaC3Q&list=RDdsUXAEzaC3Q&start_radio=1)
-# ![title](https://github.com/172009/Face-Tracking/blob/main/assets/image/sh4.png)
-- [Genshin_Impact_Nod_Krai_Performance----Genshin_Impact](https://www.youtube.com/watch?v=RuXa_yxZMGI&list=RDRuXa_yxZMGI&start_radio=1)
-
-
-
-
-#### NOTE: we are trying to make it better to identify orther object
-#### NOTE: This application using your webcam to detect, you can change value inside source code if you want
-
-
-##### TODO LIST:
-
--[x] Detected Face
--[ ] Detected Logo School
--[x] Compare faces and Flags Name
-
-
-_(may add more in furture)_
-
-
-# Getting started
-### Requirements
-- [Python-3.11](https://www.python.org/downloads/release/python-3110/)
-- [CUDA_v11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
-- [cuDNN_v8.5.0_CUDA_v11.x](https://developer.nvidia.com/compute/cudnn/secure/8.5.0/local_installers/11.7/cudnn-windows-x86_64-8.5.0.96_cuda11-archive.zip)
-  #### please extract cuDNN bin, include, and other file into where CUDA has been install
-```sh
-pip install -r requirements.txt
-```
-### a) using from build
-1. Head to release
-2. Download latest release
-
-### b) using from source code
-1. Navigate to "Code" button
-2. Download zip and extract
-3. Open script.py
+py
 
 
 ### BUILD 
@@ -112,6 +76,7 @@ _Fix your self_
 ### Credit
 - [YOLO](https://github.com/ultralytics/ultralytics)
 - [InsightFace](https://github.com/deepinsight/insightface)
+
 
 
 
