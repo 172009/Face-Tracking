@@ -97,10 +97,16 @@ yolo detect train data=data.yaml model=yolov8n.pt epochs=50 imgsz=640
 
 
 ### Cách dùng
-_thoát: nhấn nút "e", hãy chuyển bàn phím sang ENG_
-_Tải ảnh: nhấn nút "p" để xuất hiện hộp thoại tải ảnh (có thể load cả video )_
-_Camera: nhấn nút "c" để quay lại camera_
+- _thoát: nhấn nút "e", hãy chuyển bàn phím sang ENG_
 
+
+- _Tải ảnh: nhấn nút "p" để xuất hiện hộp thoại tải ảnh (có thể load cả video )_
+
+
+- _Camera: nhấn nút "c" để quay lại camera_
+
+
+- _Thêm người: nhấn nút "a" để thêm tên, và chọn ảnh có chứa người đó ( ảnh chỉ chứa 1 người đó )_
 
 
 
@@ -110,6 +116,7 @@ _Chịu_
 ###Credits
 - [InsightFace](https://github.com/deepinsight/insightface)
 - [YOLO](https://github.com/ultralytics/ultralytics)
+
 
 
 
