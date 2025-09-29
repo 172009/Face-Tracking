@@ -29,7 +29,7 @@ _(may add more in furture)_
 
 # Getting started
 ### Requirements
-- [Python-3.11]([https://www.python.org/downloads/](https://www.python.org/downloads/release/python-3110/))
+- [Python-3.11](https://www.python.org/downloads/release/python-3110/)
 - [CUDA_v11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
 - [cuDNN_v8.5.0_CUDA_v11.x](https://developer.nvidia.com/compute/cudnn/secure/8.5.0/local_installers/11.7/cudnn-windows-x86_64-8.5.0.96_cuda11-archive.zip)
   #### please extract cuDNN bin, include, and other file into where CUDA has been install
@@ -108,6 +108,7 @@ _Fix your self_
 ### Credit
 - [YOLO](https://github.com/ultralytics/ultralytics)
 - [InsightFace](https://github.com/deepinsight/insightface)
+
 
 
 
