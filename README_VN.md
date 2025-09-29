@@ -29,10 +29,12 @@ _(có thể sẽ thêm mục tiêu trong tương lai)_
 
 # Bắt đầu sử dụng
 ### Yêu cầu tối thiểu
-- [Python-3.13] (https://www.python.org/downloads/)
+- [Python-3.13](https://www.python.org/downloads/)
+- [CUDA_v11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
+- [cuDNN_v8.5.0_CUDA_v11.x](https://developer.nvidia.com/compute/cudnn/secure/8.5.0/local_installers/11.7/cudnn-windows-x86_64-8.5.0.96_cuda11-archive.zip)
+  #### please extract cuDNN bin, include, and other file into where CUDA has been install
 ```sh
-pip install ultralytics
-pip install opencv-python
+pip install -r requirements.txt
 ```
 
 ### a) sử dụng từ release
@@ -49,6 +51,7 @@ pip install opencv-python
 ```sh
 git clone https://github.com/172009/Face-Tracking.git
 cd Face-Tracking
+pip install -r requirements.txt
 ```
 _bạn có thể xây dựng đoạn mã cho riêng bạn bằng Visual Studio Code hoặc các ứng dụng chỉnh sửa lệnh_
 
@@ -103,6 +106,10 @@ _Camera: nhấn nút "c" để quay lại camera_
 
 ### Hỗ trợ
 _Chịu_
+
+###Credits
+- [InsightFace](https://github.com/deepinsight/insightface)
+- [YOLO](https://github.com/ultralytics/ultralytics)
 
 
 
