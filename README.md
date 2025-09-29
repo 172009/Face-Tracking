@@ -96,9 +96,13 @@ _You can find step in step inside the Google Collab_
 
 
 ### USAGE
-_Exit: using "e" button on keyboard to escape_
-_Load picture and Images: using "p", choose the picture or videos you like from file_
-_Camera: using "c" to open camera when you want to change from picture, videos -> camera_
+- _Exit: using "e" button on keyboard to escape_
+
+- _Load picture and Images: using "p", choose the picture or videos you like from file_
+
+- _Camera: using "c" to open camera when you want to change from picture, videos -> camera_
+
+- _New person: using "a" to add new name, and import the picture that contain that guys ( the picture should only have that guys )_
 
 
 
@@ -108,6 +112,7 @@ _Fix your self_
 ### Credit
 - [YOLO](https://github.com/ultralytics/ultralytics)
 - [InsightFace](https://github.com/deepinsight/insightface)
+
 
 
 
