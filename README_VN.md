@@ -32,7 +32,7 @@ _(có thể sẽ thêm mục tiêu trong tương lai)_
 - [Python-3.13](https://www.python.org/downloads/)
 - [CUDA_v11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive)
 - [cuDNN_v8.5.0_CUDA_v11.x](https://developer.nvidia.com/compute/cudnn/secure/8.5.0/local_installers/11.7/cudnn-windows-x86_64-8.5.0.96_cuda11-archive.zip)
-  #### please extract cuDNN bin, include, and other file into where CUDA has been install
+  #### xin hãy giải nén file cuDNN vào nơi mà CUDA đã được cài đặt, file cuDNN bao gồm bin, include và một số tệp khác....
 ```sh
 pip install -r requirements.txt
 ```
@@ -110,6 +110,7 @@ _Chịu_
 ###Credits
 - [InsightFace](https://github.com/deepinsight/insightface)
 - [YOLO](https://github.com/ultralytics/ultralytics)
+
 
 
 
