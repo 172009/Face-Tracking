@@ -77,6 +77,12 @@ _Fix your self_
 - [YOLO](https://github.com/ultralytics/ultralytics)
 - [InsightFace](https://github.com/deepinsight/insightface)
 
+## Name: numpy
+Version: 1.26.4
+
+Name: opencv-python
+Version: 4.9.0.80
+
 
 
 
